@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+body{
+    font-family: 'Kalam';
+}
+.navbar{
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-sub{
+    margin-left:700px;
+    font-size: larger;
+    color: black;
+}
+.a-element{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid white;
+}
+.AboutMe{
+    display:flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+}
+.AboutMe-h1
+{
+    padding: 20px;
+    padding-right:50px;
+    color: rgb(25, 28, 201);
+}
+.AboutMe-left{
+    justify-content: center;
+}
+.AboutMe-left-1{
+    padding: 10px;
+    padding-left: 100px;
+}
+.AboutMe-right{
+    padding-left:80px;
+    text-align: left;
+    padding-right: 80px;
+}
+.Education{
+    text-align: center;
+    padding: 20px;
+    border: 2px solid white;
+    margin-top:20px;
+}
+.edu-h1
+{
+    color: rgb(25, 28, 201);
+}
+.edu-sub{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+.edu-sub-1{
+    padding-left: 100px;
+}
+.edu-sub-2{
+    padding-left: 300px;
+}
+.skills-h1{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(25, 28, 201);
+}
+.skills-sub
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+}
+.skills-sub-1{
+    width: 100%;
+    margin-left: 90px;
+    padding: 10px;
+}
+.project-h1{
+    text-align: center;
+    margin-top: 25px;
+    color: rgb(25, 28, 201);
+}
+.project-sub
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+    font-size:17px
+}
+.project-sub-1{
+    border: 2px solid white;
+    width: 100%;
+    margin-left: 70px;
+    padding: 8px;
+}
+.contact{
+    text-align: center;
+    color: rgb(25, 28, 201);
+}
+.icons-img{
+    height: 50px;
+    padding: 10px;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
